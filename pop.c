@@ -20,4 +20,4 @@ void f_pop(stack_t **head, unsigned int counter)
 	h = *head;
 	*head = h->next;
 	free(h);
-
+}
